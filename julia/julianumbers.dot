@@ -1,0 +1,78 @@
+digraph {
+    Number[shape=ellipse]
+    Number -> Real
+    Number -> Complex
+
+    Real[shape=ellipse]
+    Real -> AbstractFloat
+    Real -> Integer
+    Real -> Rational
+    Real -> AbstractIrrational
+
+    Integer[shape=ellipse]
+    Integer -> Signed
+    Integer -> Bool
+    Integer -> Unsigned
+
+    AbstractFloat[shape=ellipse]
+    AbstractFloat -> Float16
+    AbstractFloat -> Float32
+    AbstractFloat -> Float64
+    AbstractFloat -> BigFloat
+
+    AbstractIrrational[shape=ellipse]
+    AbstractIrrational -> Irrational
+
+    Signed[shape=ellipse]
+    Signed -> Int8
+    Signed -> Int16
+    Signed -> Int32
+    Signed -> Int64
+    Signed -> Int128
+    Signed -> BigInt
+
+    Unsigned[shape=ellipse]
+    Unsigned -> UInt8
+    Unsigned -> UInt16
+    Unsigned -> UInt32
+    Unsigned -> UInt64
+    Unsigned -> UInt128
+
+    Float16[shape=box]
+
+    Float32[shape=box]
+    
+    Float64[shape=box]
+
+    BigFloat[shape=box]
+
+    Bool[shape=box]
+
+    Int8[shape=box]
+
+    Int16[shape=box]
+
+    Int32[shape=box]
+
+    Int64[shape=box]
+
+    Int128[shape=box]
+
+    UInt8[shape=box]
+
+    UInt16[shape=box]
+
+    UInt32[shape=box]
+
+    UInt64[shape=box]
+
+    UInt128[shape=box]
+
+    BigInt[shape=box]
+
+    Complex[label="Complex{T<:Real}" shape=box]
+
+    Rational[label="Rational{T<:Integer}" shape=box]
+
+    Irrational[label="Irrational{sym}" shape=box]
+}

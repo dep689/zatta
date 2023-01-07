@@ -1,0 +1,312 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="901pt" height="332pt" viewBox="0.00 0.00 900.72 332">
+<g id="graph0" class="graph" transform="translate(4,328) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-328 896.72,-328 896.72,4 -4,4"/>
+<!-- N -->
+<g id="node1" class="node" pointer-events="visible" data-name="Number" data-comment="N">
+
+<ellipse fill="none" stroke="black" cx="556.39" cy="-306" rx="42.86" ry="18"/>
+<text text-anchor="middle" x="556.39" y="-301.8" font-family="Times,serif" font-size="14.00">Number</text>
+</g>
+<!-- R -->
+<g id="node2" class="node" pointer-events="visible" data-name="Real" data-comment="R">
+
+<ellipse fill="none" stroke="black" cx="501.39" cy="-234" rx="28.97" ry="18"/>
+<text text-anchor="middle" x="501.39" y="-229.8" font-family="Times,serif" font-size="14.00">Real</text>
+</g>
+<!-- Number&#45;&gt;R -->
+<g id="edge1" class="edge" data-name="Number-&gt;Real" data-comment="Number-&gt;R">
+
+<path fill="none" stroke="black" d="M543.36,-288.41C536.59,-279.8 528.19,-269.11 520.69,-259.56"/>
+<polygon fill="black" stroke="black" points="523.44,-257.4 514.51,-251.7 517.94,-261.73 523.44,-257.4"/>
+</g>
+<!-- AbstractFloat -->
+<g id="node4" class="node" pointer-events="visible" data-name="AbstractFloat">
+
+<ellipse fill="none" stroke="black" cx="183.39" cy="-162" rx="63.71" ry="18"/>
+<text text-anchor="middle" x="183.39" y="-157.8" font-family="Times,serif" font-size="14.00">AbstractFloat</text>
+</g>
+<!-- Real&#45;&gt;AbstractFloat -->
+<g id="edge3" class="edge" data-name="Real-&gt;AbstractFloat">
+
+<path fill="none" stroke="black" d="M474.28,-227.03C423.48,-215.85 312.89,-191.51 243.65,-176.26"/>
+<polygon fill="black" stroke="black" points="244.48,-172.86 233.96,-174.13 242.98,-179.7 244.48,-172.86"/>
+</g><g id="edge2" class="edge" data-name="Number-&gt;Complex" data-comment="Real-&gt;AbstractFloat">
+
+<path fill="none" stroke="black" d="M569.42,-288.41C575.74,-280.37 583.49,-270.51 590.59,-261.47"/>
+<polygon fill="black" stroke="black" points="593.32,-263.66 596.75,-253.64 587.82,-259.34 593.32,-263.66"/>
+</g>
+<!-- I -->
+<g id="node5" class="node" pointer-events="visible" data-name="Integer" data-comment="I">
+
+<ellipse fill="none" stroke="black" cx="439.39" cy="-162" rx="38.26" ry="18"/>
+<text text-anchor="middle" x="439.39" y="-157.8" font-family="Times,serif" font-size="14.00">Integer</text>
+</g>
+<!-- Real&#45;&gt;I -->
+<g id="edge4" class="edge" data-name="Real-&gt;Integer" data-comment="Real-&gt;I">
+
+<path fill="none" stroke="black" d="M487.94,-217.81C480.11,-208.98 470.07,-197.64 461.15,-187.56"/>
+<polygon fill="black" stroke="black" points="463.93,-185.43 454.68,-180.27 458.69,-190.07 463.93,-185.43"/>
+</g>
+<!-- S -->
+<g id="node8" class="node" pointer-events="visible" data-name="Signed" data-comment="S">
+
+<ellipse fill="none" stroke="black" cx="351.39" cy="-90" rx="37.72" ry="18"/>
+<text text-anchor="middle" x="351.39" y="-85.8" font-family="Times,serif" font-size="14.00">Signed</text>
+</g><g id="node7" class="node" pointer-events="visible" data-name="AbstractIrrational" data-comment="S">
+
+<ellipse fill="none" stroke="black" cx="746.39" cy="-162" rx="79.85" ry="18"/>
+<text text-anchor="middle" x="746.39" y="-157.8" font-family="Times,serif" font-size="14.00">AbstractIrrational</text>
+</g>
+<!-- Integer&#45;&gt;S -->
+<g id="edge7" class="edge" data-name="Integer-&gt;Signed" data-comment="Integer-&gt;S">
+
+<path fill="none" stroke="black" d="M420.73,-146.15C408.68,-136.57 392.78,-123.92 379.24,-113.16"/>
+<polygon fill="black" stroke="black" points="381.52,-110.49 371.51,-107.01 377.16,-115.97 381.52,-110.49"/>
+</g><g id="edge6" class="edge" data-name="Real-&gt;AbstractIrrational" data-comment="Integer-&gt;S">
+
+<path fill="none" stroke="black" d="M523.64,-222.29C528.75,-220.04 534.2,-217.81 539.39,-216 584.85,-200.14 637.43,-186.74 678.22,-177.38"/>
+<polygon fill="black" stroke="black" points="678.94,-180.8 687.92,-175.18 677.39,-173.98 678.94,-180.8"/>
+</g>
+<!-- U -->
+<g id="node10" class="node" pointer-events="visible" data-name="Unsigned" data-comment="U">
+
+<ellipse fill="none" stroke="black" cx="636.39" cy="-90" rx="48.1" ry="18"/>
+<text text-anchor="middle" x="636.39" y="-85.8" font-family="Times,serif" font-size="14.00">Unsigned</text>
+</g>
+<!-- Integer&#45;&gt;U -->
+<!-- Integer&#45;&gt;Unsigned -->
+<!-- Integer&#45;&gt;Unsigned -->
+<g id="edge9" class="edge" data-name="Integer-&gt;Unsigned">
+
+<path fill="none" stroke="black" d="M469.31,-150.37C501.83,-138.81 554.16,-120.22 591.59,-106.92"/>
+<polygon fill="black" stroke="black" points="592.53,-110.3 600.78,-103.65 590.19,-103.7 592.53,-110.3"/>
+</g>
+
+<g id="edge5" class="edge" data-name="Real-&gt;Rational" data-comment="Integer-&gt;Unsigned">
+
+<path fill="none" stroke="black" d="M515.06,-217.81C522.78,-209.23 532.64,-198.27 541.51,-188.42"/>
+<polygon fill="black" stroke="black" points="543.87,-191.03 547.96,-181.25 538.67,-186.34 543.87,-191.03"/>
+</g>
+<!-- AbstractFloat&#45;&gt;AbstractIrrational -->
+<!-- Float16 -->
+<g id="node11" class="node" pointer-events="visible" data-name="Float16">
+
+<polygon fill="none" stroke="black" points="58.67,-108 0.11,-108 0.11,-72 58.67,-72 58.67,-108"/>
+<text text-anchor="middle" x="29.39" y="-85.8" font-family="Times,serif" font-size="14.00">Float16</text>
+</g>
+<!-- AbstractFloat&#45;&gt;F -->
+<g id="edge10" class="edge" data-name="AbstractFloat-&gt;Float16" data-comment="AbstractFloat-&gt;F">
+
+<path fill="none" stroke="black" d="M150.73,-146.15C127.01,-135.37 94.78,-120.72 69.5,-109.23"/>
+<polygon fill="black" stroke="black" points="71.06,-106.1 60.51,-105.15 68.17,-112.47 71.06,-106.1"/>
+</g><g id="edge8" class="edge" data-name="Integer-&gt;Bool" data-comment="AbstractFloat-&gt;F">
+
+<path fill="none" stroke="black" d="M439.39,-143.7C439.39,-136.41 439.39,-127.73 439.39,-119.54"/>
+<polygon fill="black" stroke="black" points="442.89,-119.62 439.39,-109.62 435.89,-119.62 442.89,-119.62"/>
+</g>
+
+<!-- AbstractFloat&#45;&gt;Float16 -->
+<g id="node12" class="node" pointer-events="visible" data-name="Float32" data-comment="AbstractFloat-&gt;Float16">
+
+<polygon fill="none" stroke="black" points="135.67,-108 77.11,-108 77.11,-72 135.67,-72 135.67,-108"/>
+<text text-anchor="middle" x="106.39" y="-85.8" font-family="Times,serif" font-size="14.00">Float32</text>
+</g>
+<!-- AbstractFloat&#45;&gt;Float3 -->
+<g id="edge11" class="edge" data-name="AbstractFloat-&gt;Float32" data-comment="AbstractFloat-&gt;Float3">
+
+<path fill="none" stroke="black" d="M165.14,-144.41C155.83,-135.95 144.31,-125.47 133.94,-116.05"/>
+<polygon fill="black" stroke="black" points="136.45,-113.6 126.7,-109.46 131.75,-118.78 136.45,-113.6"/>
+</g><g id="node13" class="node" pointer-events="visible" data-name="Float64" data-comment="AbstractFloat-&gt;Float3">
+
+<polygon fill="none" stroke="black" points="212.67,-108 154.11,-108 154.11,-72 212.67,-72 212.67,-108"/>
+<text text-anchor="middle" x="183.39" y="-85.8" font-family="Times,serif" font-size="14.00">Float64</text>
+</g>
+<!-- AbstractFloat&#45;&gt;Float1 -->
+<!-- AbstractFloat&#45;&gt;Float64 -->
+<g id="edge12" class="edge" data-name="AbstractFloat-&gt;Float64">
+
+<path fill="none" stroke="black" d="M183.39,-143.7C183.39,-136.41 183.39,-127.73 183.39,-119.54"/>
+<polygon fill="black" stroke="black" points="186.89,-119.62 183.39,-109.62 179.89,-119.62 186.89,-119.62"/>
+</g>
+<g id="node14" class="node" pointer-events="visible" data-name="BigFloat" data-comment="AbstractFloat-&gt;Float64">
+
+<polygon fill="none" stroke="black" points="295.9,-108 230.88,-108 230.88,-72 295.9,-72 295.9,-108"/>
+<text text-anchor="middle" x="263.39" y="-85.8" font-family="Times,serif" font-size="14.00">BigFloat</text>
+</g>
+<!-- AbstractFloat&#45;&gt;B -->
+<g id="edge13" class="edge" data-name="AbstractFloat-&gt;BigFloat" data-comment="AbstractFloat-&gt;B">
+
+<path fill="none" stroke="black" d="M202.35,-144.41C212.12,-135.86 224.23,-125.26 235.09,-115.77"/>
+<polygon fill="black" stroke="black" points="237.09,-118.66 242.31,-109.44 232.48,-113.39 237.09,-118.66"/>
+</g>
+<!-- B -->
+<!-- Bool -->
+<g id="node9" class="node" pointer-events="visible" data-name="Bool">
+
+<polygon fill="none" stroke="black" points="466.39,-108 412.39,-108 412.39,-72 466.39,-72 466.39,-108"/>
+<text text-anchor="middle" x="439.39" y="-85.8" font-family="Times,serif" font-size="14.00">Bool</text>
+</g>
+
+<!-- I -->
+<g id="node16" class="node" pointer-events="visible" data-name="Int8" data-comment="I">
+
+<polygon fill="none" stroke="black" points="158.39,-36 104.39,-36 104.39,0 158.39,0 158.39,-36"/>
+<text text-anchor="middle" x="131.39" y="-13.8" font-family="Times,serif" font-size="14.00">Int8</text>
+</g>
+<!-- Int18 -->
+<g id="node17" class="node" pointer-events="visible" data-name="Int16" data-comment="Int18">
+
+<polygon fill="none" stroke="black" points="230.39,-36 176.39,-36 176.39,0 230.39,0 230.39,-36"/>
+<text text-anchor="middle" x="203.39" y="-13.8" font-family="Times,serif" font-size="14.00">Int16</text>
+</g><g id="edge15" class="edge" data-name="Signed-&gt;Int8" data-comment="Int18">
+
+<path fill="none" stroke="black" d="M322.83,-77.95C317.09,-75.87 311.08,-73.79 305.39,-72 248.23,-54.03 229.06,-57.19 169.45,-36.39"/>
+<polygon fill="black" stroke="black" points="170.7,-33.12 160.11,-33.04 168.34,-39.71 170.7,-33.12"/>
+</g>
+<!-- Int328 -->
+<g id="node18" class="node" pointer-events="visible" data-name="Int32" data-comment="Int328">
+
+<polygon fill="none" stroke="black" points="302.39,-36 248.39,-36 248.39,0 302.39,0 302.39,-36"/>
+<text text-anchor="middle" x="275.39" y="-13.8" font-family="Times,serif" font-size="14.00">Int32</text>
+</g>
+<!-- Int68 -->
+<g id="node19" class="node" pointer-events="visible" data-name="Int64" data-comment="Int68">
+
+<polygon fill="none" stroke="black" points="374.39,-36 320.39,-36 320.39,0 374.39,0 374.39,-36"/>
+<text text-anchor="middle" x="347.39" y="-13.8" font-family="Times,serif" font-size="14.00">Int64</text>
+</g>
+<!-- I -->
+<g id="node20" class="node" pointer-events="visible" data-name="Int128" data-comment="I">
+
+<polygon fill="none" stroke="black" points="446.39,-36 392.39,-36 392.39,0 446.39,0 446.39,-36"/>
+<text text-anchor="middle" x="419.39" y="-13.8" font-family="Times,serif" font-size="14.00">Int128</text>
+</g><g id="edge16" class="edge" data-name="Signed-&gt;Int16" data-comment="I">
+
+<path fill="none" stroke="black" d="M325.27,-76.65C301.93,-65.61 267.46,-49.3 241.12,-36.85"/>
+<polygon fill="black" stroke="black" points="242.66,-33.7 232.12,-32.59 239.66,-40.03 242.66,-33.7"/>
+</g>
+<!-- UInt8 -->
+<g id="node22" class="node" pointer-events="visible" data-name="UInt8">
+
+<polygon fill="none" stroke="black" points="590.39,-36 536.39,-36 536.39,0 590.39,0 590.39,-36"/>
+<text text-anchor="middle" x="563.39" y="-13.8" font-family="Times,serif" font-size="14.00">UInt8</text>
+</g><g id="edge14" class="edge" data-name="AbstractIrrational-&gt;Irrational" data-comment="UInt8">
+
+<path fill="none" stroke="black" d="M748.37,-143.7C749.2,-136.41 750.19,-127.73 751.13,-119.54"/>
+<polygon fill="black" stroke="black" points="754.6,-119.94 752.26,-109.61 747.65,-119.15 754.6,-119.94"/>
+</g>
+<!-- UInt16 -->
+<!-- UInt16 -->
+<g id="node23" class="node" pointer-events="visible" data-name="UInt16">
+
+<polygon fill="none" stroke="black" points="664.05,-36 608.73,-36 608.73,0 664.05,0 664.05,-36"/>
+<text text-anchor="middle" x="636.39" y="-13.8" font-family="Times,serif" font-size="14.00">UInt16</text>
+</g><g id="edge17" class="edge" data-name="Signed-&gt;Int32" data-comment="UInt16">
+
+<path fill="none" stroke="black" d="M334.52,-73.46C325.14,-64.82 313.23,-53.85 302.56,-44.03"/>
+<polygon fill="black" stroke="black" points="305.19,-41.69 295.46,-37.49 300.44,-46.84 305.19,-41.69"/>
+</g>
+<!-- UInt32 -->
+<g id="edge22" class="edge" data-name="Unsigned-&gt;UInt16" data-comment="UInt32">
+
+<path fill="none" stroke="black" d="M636.39,-71.7C636.39,-64.41 636.39,-55.73 636.39,-47.54"/>
+<polygon fill="black" stroke="black" points="639.89,-47.62 636.39,-37.62 632.89,-47.62 639.89,-47.62"/>
+</g>
+<!-- UInt32 -->
+<g id="node24" class="node" pointer-events="visible" data-name="UInt32">
+
+<polygon fill="none" stroke="black" points="738.05,-36 682.73,-36 682.73,0 738.05,0 738.05,-36"/>
+<text text-anchor="middle" x="710.39" y="-13.8" font-family="Times,serif" font-size="14.00">UInt32</text>
+</g><g id="edge18" class="edge" data-name="Signed-&gt;Int64" data-comment="UInt32">
+
+<path fill="none" stroke="black" d="M350.4,-71.7C349.98,-64.41 349.49,-55.73 349.02,-47.54"/>
+<polygon fill="black" stroke="black" points="352.52,-47.4 348.45,-37.62 345.53,-47.8 352.52,-47.4"/>
+</g>
+<!-- UInt64 -->
+<g id="edge23" class="edge" data-name="Unsigned-&gt;UInt32" data-comment="UInt64">
+
+<path fill="none" stroke="black" d="M653.55,-72.76C662.56,-64.25 673.79,-53.62 683.89,-44.07"/>
+<polygon fill="black" stroke="black" points="686.07,-46.83 690.93,-37.41 681.26,-41.74 686.07,-46.83"/>
+</g>
+<!-- UInt64 -->
+<g id="node25" class="node" pointer-events="visible" data-name="UInt64">
+
+<polygon fill="none" stroke="black" points="812.05,-36 756.73,-36 756.73,0 812.05,0 812.05,-36"/>
+<text text-anchor="middle" x="784.39" y="-13.8" font-family="Times,serif" font-size="14.00">UInt64</text>
+</g>
+<!-- UInt128 -->
+<!-- UInt128 -->
+<g id="edge24" class="edge" data-name="Unsigned-&gt;UInt64" data-comment="UInt128">
+
+<path fill="none" stroke="black" d="M665.28,-75.34C688.39,-64.41 721,-48.98 746.25,-37.04"/>
+<polygon fill="black" stroke="black" points="747.67,-40.24 755.21,-32.8 744.67,-33.91 747.67,-40.24"/>
+</g>
+<!-- UInt128 -->
+<g id="node26" class="node" pointer-events="visible" data-name="UInt128">
+
+<polygon fill="none" stroke="black" points="892.55,-36 830.23,-36 830.23,0 892.55,0 892.55,-36"/>
+<text text-anchor="middle" x="861.39" y="-13.8" font-family="Times,serif" font-size="14.00">UInt128</text>
+</g><g id="edge19" class="edge" data-name="Signed-&gt;Int128" data-comment="UInt128">
+
+<path fill="none" stroke="black" d="M366.82,-73.12C375.06,-64.63 385.41,-53.98 394.74,-44.38"/>
+<polygon fill="black" stroke="black" points="397.08,-46.99 401.54,-37.38 392.06,-42.11 397.08,-46.99"/>
+</g>
+<!-- B -->
+<!-- BigInt -->
+<!-- BigInt -->
+
+<!-- BigInt -->
+<!-- BigInt -->
+<g id="edge25" class="edge" data-name="Unsigned-&gt;UInt128" data-comment="BigInt">
+
+<path fill="none" stroke="black" d="M673.16,-77.94C679.88,-75.95 686.84,-73.9 693.39,-72 746.83,-56.52 763.68,-55.65 819.25,-36.54"/>
+<polygon fill="black" stroke="black" points="820.38,-39.85 828.67,-33.25 818.07,-33.24 820.38,-39.85"/>
+</g>
+<!-- BigInt -->
+<!-- BigInt -->
+<g id="node21" class="node" pointer-events="visible" data-name="BigInt">
+
+<polygon fill="none" stroke="black" points="518.39,-36 464.39,-36 464.39,0 518.39,0 518.39,-36"/>
+<text text-anchor="middle" x="491.39" y="-13.8" font-family="Times,serif" font-size="14.00">BigInt</text>
+</g>
+<g id="edge20" class="edge" data-name="Signed-&gt;BigInt" data-comment="BigInt">
+
+<path fill="none" stroke="black" d="M376.74,-76.32C398.39,-65.5 429.82,-49.78 454.3,-37.55"/>
+<polygon fill="black" stroke="black" points="455.58,-40.82 462.96,-33.21 452.45,-34.56 455.58,-40.82"/>
+</g>
+
+
+<g id="edge21" class="edge" data-name="Unsigned-&gt;UInt8" data-comment="BigInt">
+
+<path fill="none" stroke="black" d="M619.46,-72.76C610.57,-64.25 599.49,-53.62 589.53,-44.07"/>
+<polygon fill="black" stroke="black" points="592.24,-41.81 582.6,-37.42 587.39,-46.87 592.24,-41.81"/>
+</g>
+
+
+<!-- C -->
+<!-- Complex -->
+<g id="node3" class="node" pointer-events="visible" data-name="Complex">
+
+<polygon fill="none" stroke="black" points="674.65,-252 548.13,-252 548.13,-216 674.65,-216 674.65,-252"/>
+<text text-anchor="middle" x="611.39" y="-229.8" font-family="Times,serif" font-size="14.00">Complex{T&lt;:Real}</text>
+</g>
+
+<!-- R -->
+<!-- Rational -->
+<g id="node6" class="node" pointer-events="visible" data-name="Rational">
+
+<polygon fill="none" stroke="black" points="632.74,-180 496.04,-180 496.04,-144 632.74,-144 632.74,-180"/>
+<text text-anchor="middle" x="564.39" y="-157.8" font-family="Times,serif" font-size="14.00">Rational{T&lt;:Integer}</text>
+</g>
+
+<!-- I -->
+<!-- Irrational -->
+<g id="node15" class="node" pointer-events="visible" data-name="Irrational">
+
+<polygon fill="none" stroke="black" points="806.75,-108 702.03,-108 702.03,-72 806.75,-72 806.75,-108"/>
+<text text-anchor="middle" x="754.39" y="-85.8" font-family="Times,serif" font-size="14.00">Irrational{sym}</text>
+</g>
+
+</g>
+</svg>
